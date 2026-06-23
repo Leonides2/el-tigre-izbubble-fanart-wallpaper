@@ -1,0 +1,16 @@
+{
+  "AppVersion": "1.0",
+  "Title": "El Tigre | Fanart Lively Wallpaper",
+  "Desc": "A Lively Wallpaper based in the art of izbubbles.",
+  "Author": "Leonides2",
+  "Thumbnail": "thumbnail.png",
+  "License": "MIT",
+  "Contact": "jzuniga.hernandez@outlook.com",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--pause-event true  --audio --system-nowplaying",
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": null,
+  "Version": 4
+}
