@@ -74,28 +74,6 @@ function setSize() {
 }
 
 
-function livelyPropertyListener(name, val) {
-    switch (name) {
-        case "lineColor":
-            var color = hexToRgb(val);
-            linesColor = `rgb(${color.r},${color.g},${color.b})`;
-            gradient = ctx.createLinearGradient(0, midY, 0, max_height);
-            gradient.addColorStop(0, backgroundColor);
-            gradient.addColorStop(1, linesColor);
-            break;
-        case "backgroundColor":
-            var color = hexToRgb(val);
-            backgroundColor = `rgb(${color.r},${color.g},${color.b})`;
-            gradient = ctx.createLinearGradient(0, midY, 0, max_height);
-            gradient.addColorStop(0, backgroundColor);
-            gradient.addColorStop(1, linesColor);
-            break;
-        case "square":
-            square = val;
-            break;
-    }
-}
-
 
 async function livelyCurrentTrack(data) {
     let obj = JSON.parse(data);

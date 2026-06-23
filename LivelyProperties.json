@@ -1,17 +1,2 @@
 {
-   "lineColor": {
-    "text": "Lines",
-    "type": "color",
-    "value": "#FF0000"
-  },
-  "backgroundColor": {
-    "text": "Background",
-    "type": "color",
-    "value": "#000000"
-  },
-  "square": {
-    "type": "checkbox",
-    "value": true,
-    "text": "Square"
-  }
 }
