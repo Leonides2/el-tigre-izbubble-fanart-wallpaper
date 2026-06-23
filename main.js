@@ -126,6 +126,7 @@ function livelyWallpaperPlaybackChanged(data) {
     if (isPaused) {
         headerTitle.innerText = "No playing audio"
         headerArtist.innerText = ""
+        thumbnailImage.setAttribute("style", "display: none");
     }
 }
 
